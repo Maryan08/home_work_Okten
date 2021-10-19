@@ -1,0 +1,22 @@
+
+.one {
+    background-color: aqua;
+    height: 500px;
+}
+
+.two {
+    background-color: brown;
+    height: 500px;
+    display: flex;
+}
+.block1{
+    background-color: silver;
+    height: 500px;
+    width: 70%;
+
+}
+.block2{
+    background-color: black;
+    height: 500px;
+    width: 30%;
+}
