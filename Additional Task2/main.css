@@ -1,0 +1,211 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+
+    width: 100%;
+    height: 200px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.round {
+    width: 165px;
+    height: 80%;
+    background-color: darkgrey;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.nav {
+    width: 70%;
+    height: 100%;
+    /*background-color: darkgrey;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block1 {
+    height: 15%;
+    width: 15%;
+    background-color: dimgrey;
+    border-radius: 20px;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-size: 20px;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.destinations {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.one {
+    height: 50px;
+    width: 50%;
+    background-color: darkgrey;
+
+}
+
+.two {
+    height: 40px;
+    width: 45%;
+    background-color: silver;
+}
+
+.three {
+    height: 35px;
+    width: 40%;
+    background-color: silver;
+
+}
+.main_block{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /*background-color: red;*/
+}
+.blocks2{
+    /*background-color: silver;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.same_blocks{
+    width: 100%;
+    height: 30%;
+
+}
+.equal{
+    width: 33%;
+    height: 100%;
+    background-color: silver;
+}
+.pohui1{
+    width: 33%;
+    height: 100%;
+    background-color: silver;
+}
+.pohui2{
+    width: 67%;
+    height: 100%;
+    background-color: silver;
+}
+.offers{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.offer_block{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    column-gap: 10px;
+}
+.image{
+    width: 20%;
+    height: 100%;
+    background-color: darkgrey;
+}
+.describe{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+
+}
+.line1{
+    width: 50%;
+    height: 20px;
+    background-color: darkgrey;
+}
+.line2{
+    width: 40%;
+    height: 15px;
+    background-color: darkgrey;
+}
+.line3{
+    width: 30%;
+    height: 10px;
+    background-color: darkgrey;
+}
+.line4{
+    width: 30%;
+    height: 20px;
+    background-color: darkgrey;
+    margin-top: 120px;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 350px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer_blocks{
+    width: 23%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+
+}
+.footer_line1{
+    width: 95%;
+    height: 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+.footer_line2{
+    width: 80%;
+    height: 17px;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.a{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+.wrap{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    column-gap: 10px;
+}
+.f{
+    width: 30%;
+    height: 100%;
+    background-color: greenyellow;
+}
+.block1{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.b{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.block2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    justify-content: space-around;
+}
+.blocks{
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}
