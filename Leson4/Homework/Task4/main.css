@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.w100{
+    width: 100%;
+}
+
+header{
+    height: 100px;
+    background-color: blue;
+
+
+}
+.common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+}
+nav{
+    height: 75px;
+    background-color: aqua;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+.main{
+    width: 65%;
+    height: 100%;
+    background-color: greenyellow;
+}
+.aside{
+    width: 35%;
+    height: 100%;
+    background-color: blueviolet;
+}
+footer{
+    height: 100px;
+    background-color: brown;
+}

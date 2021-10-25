@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+.header{
+    height: 150px;
+    background-color: greenyellow;
+}
+.wrap{
+    height: 600px;
+    /*background-color: silver;*/
+    display: flex;
+    column-gap: 20px;
+
+}
+.menu{
+    width: 30%;
+    background-color: aqua;
+}
+.post_wrap{
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    row-gap: 20px;
+
+}
+.post{
+    background-color: blue;
+    height: 50%;
+    row-gap: 20px;
+}
+.footer{
+    height: 200px;
+    background-color: blueviolet;
+}

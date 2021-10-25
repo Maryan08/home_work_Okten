@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.w100{
+    width: 100%;
+}
+.widgest{
+    height: 500px;
+    background-color: blue;
+
+}
+.wrap{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.blocks{
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.contacts{
+    height: 800px;
+    background-color: green;
+}
