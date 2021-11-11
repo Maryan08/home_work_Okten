@@ -1,0 +1,54 @@
+@media screen and (max-width: 320px) {
+
+
+    .pad_left_right {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .wrap1{
+        width: 100%;
+    }
+    .header{
+        height: 34px;
+    }
+    .choose_city{
+        width: 300px;
+
+    }
+    .vector_img {
+        display: none;
+    }
+
+    .city_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .city_text a{
+
+    }
+    .nav-item{
+         display: none;
+     }
+    .wrap2{
+        display: none;
+    }
+    .nav-item1{
+        display: block;
+        position: absolute;
+        margin-left: 140px;
+    }
+    .logo{
+        width: 37px;
+        height: 40px;
+    }
+    .AVT-ZAP{
+            font-size: 15px;
+    }
+    .under_name{
+        font-size: 8px;
+        line-height: 3px;
+    }
+    .d_none{
+        display: none;
+    }
+}
