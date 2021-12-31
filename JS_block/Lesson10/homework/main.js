@@ -17,7 +17,6 @@
 // let form1 = document.form1;
 // document.form1.onsubmit= function (e) {
 //     e.preventDefault();
-//     console.log(12);
 //     if (form1.age.value< 18) {
 //         console.log('less then 18');
 //     } else {
