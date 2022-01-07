@@ -14,16 +14,17 @@
 // }
 
 // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-// let form1 = document.form1;
-// document.form1.onsubmit= function (e) {
-//     e.preventDefault();
-//     if (form1.age.value< 18) {
-//         console.log('less then 18');
-//     } else {
-//         console.log('everything is Okey');
-//     }
-//
-// }
+let form1 = document.form1;
+document.form1.onsubmit= function (e) {
+    e.preventDefault();
+
+    if (form1.age.value< 18) {
+        console.log('less then 18');
+    } else {
+        console.log('everything is Okey');
+    }
+
+}
 
 
 // - Создайте меню, которое раскрывается/сворачивается при клике
