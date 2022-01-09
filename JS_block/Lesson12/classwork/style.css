@@ -1,0 +1,16 @@
+.div_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.post{
+    border: 1px solid red;
+    margin: 5px;
+    width: 19%;
+    text-align: center;
+}
+.post:hover {
+    background: greenyellow;
+    transition: .3s;
+    transform: rotateY(8grad);
+}
