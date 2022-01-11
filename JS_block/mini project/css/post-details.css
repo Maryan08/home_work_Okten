@@ -1,0 +1,13 @@
+.comment_wrap{
+    background-color: #1b92b0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: space-around;
+
+}
+.comment_body{
+    border: 1px solid black;
+    width: 23%;
+    text-align: center;
+}
