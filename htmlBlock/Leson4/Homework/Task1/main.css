@@ -1,0 +1,21 @@
+.h500{
+    height: 500px;
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: brown;
+    display: flex;
+}
+.block1{
+    background-color: silver;
+    width: 70%;
+
+}
+.block2{
+    background-color: black;
+    width: 30%;
+}
