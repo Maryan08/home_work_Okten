@@ -16,7 +16,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                     .then(response => response.json())
                     .then(comments => {
                         for (const comment of comments) {
-
+                            console.log(comment.name);
                             if (post.id === comment.postId) {
                                 let divCardComments = document.createElement('div');
                                 divCardComments.classList.add('cardComments');
